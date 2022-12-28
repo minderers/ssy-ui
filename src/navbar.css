@@ -1,0 +1,18 @@
+/*
+* @Author: mqxu 
+* @Date: 2022-12-26 10:06:29 
+* @Last Modified by: minder
+* @Last Modified time: 2022-12-26 16:23:08
+*/
+
+/* 底部导航栏 */
+.ssy-navbar {
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 100%;
+    max-width: 640px;
+    height: 2.5rem;
+    border-top: 1px solid #ddd;
+    z-index: 200;
+}
