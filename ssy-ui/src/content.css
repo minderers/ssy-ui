@@ -1,0 +1,15 @@
+/*
+* @Author: mqxu 
+* @Date: 2022-12-26 10:06:29 
+* @Last Modified by: minder
+* @Last Modified time: 2022-12-26 16:45:36
+*/
+
+/* 内容区 */
+.ssy-content {
+    box-sizing: border-box;
+    position: relative;
+    overflow-y: auto;
+    padding-top: 2.3rem;
+    padding-bottom: 2.5rem;
+}

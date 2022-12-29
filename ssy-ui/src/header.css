@@ -1,0 +1,18 @@
+/*
+* @Author: mqxu 
+* @Date: 2022-12-26 10:06:29 
+* @Last Modified by: minder
+* @Last Modified time: 2022-12-26 15:50:40
+*/
+
+/* 头部导航条 */
+.ssy-header {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 640px;
+    height: 2.3rem;
+    top: 0;
+    z-index: 200;
+    border-bottom: 1px solid #ddd;
+}

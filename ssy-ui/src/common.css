@@ -1,0 +1,46 @@
+/*
+* @Author:mqxu
+* @date:2022-12-26 10:06:29
+* @Last Modified by:minder
+* @Last Modified time : 2022-10-27 14:20:30
+*/
+
+/*屏幕宽度在340-410px,基准尺寸20px*/
+html {
+    font-size: 20px;
+}
+
+/*样式2*/
+/*屏幕宽度小于340px,基准尺寸18px*/
+@media (max-width:340px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+/*屏幕宽度大于410px,基准尺寸22px*/
+@media (min-width:410px) {
+    html {
+        font-size: 22px;
+    }
+}
+
+/* body默认样式 */
+body {
+    max-width: 640px;
+    margin: 0 auto;
+    background: #f8f8f8;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* 页面蒙版 */
+.ssy-mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 200;
+}
