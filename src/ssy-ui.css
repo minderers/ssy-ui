@@ -21,3 +21,5 @@
 @import'./input.css';
 /* 按钮的样式 */
 @import './botton.css';
+/*搜索栏的样式*/
+@import './search.css';
