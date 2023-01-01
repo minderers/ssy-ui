@@ -23,3 +23,5 @@
 @import './botton.css';
 /*搜索栏的样式*/
 @import './search.css';
+/* 列表的样式 */
+@import './list.css';
