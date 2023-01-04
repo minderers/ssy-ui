@@ -27,3 +27,7 @@
 @import './list.css';
 /* 网格组件的样式 */
 @import './grid.css';
+/* 菜单组件的样式 */
+@import './menu.css';
+/* 模态框组件的样式 */
+@import './modal.css';
