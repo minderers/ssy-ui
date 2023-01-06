@@ -11,8 +11,24 @@
 .fa {
     display: inline-block;
     text-align: center;
-    width: 1.5rem;
-    height: 1.5rem;
-    line-height: 1.5rem;
-    font-size: 1.2rem;
+}
+
+/* 垂直方向上振动 */
+.fa-vibrate-y {
+    animation: fa-vibrate-y 1.5s infinite ease-in;
+}
+
+/* 振动轨迹 */
+@keyframes fa-vibrate-y {
+    0% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(10%);
+    }
+
+    100% {
+        transform: translateY(-10%);
+    }
 }

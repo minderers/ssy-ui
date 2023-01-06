@@ -1,0 +1,56 @@
+/*
+ * @Author: mqxu 
+ * @Date: 2022-12-28 10:06:29 
+ * @Last Modified by: minder
+ * @Last Modified time: 2023-1-6 16:08:40
+ */
+
+
+/* 页面加载提示组件 */
+.ssy-loading {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* 页面加载提示组件的图标 */
+.ssy-loading>.ssy-loading-icon {
+    font-size: 4.5rem;
+    color: rgba(0, 0, 0, .05);
+}
+
+/* 页面加载提示组件的提示信息 */
+.ssy-loading>.ssy-loading-info {
+    display: block;
+    margin-top: .6rem;
+    font-size: .8rem;
+    color: #ccc;
+}
+
+/* 单行加载提示组件 */
+.ssy-loading-inline {
+    margin: 1.5rem auto 1rem;
+    width: 12.5rem;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    color: #999;
+    height: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+/* 单行加载提示组件的文本信息 */
+.ssy-loading-inline>.ssy-loading-info {
+    display: inline-block;
+    padding: 0 .5rem;
+    position: relative;
+    top: -.7rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .7rem;
+    background: #fff;
+}
+
+/* 单行加载提示组件的图标 */
+.ssy-loading-inline>.ssy-loading-info>.ssy-loading-icon {
+    color: rgba(0, 0, 0, .2);
+}
